@@ -5,7 +5,7 @@
 
 .page {
   min-width: 320px;
-  /* max-width: 1280px; */
+  max-width: 1280px;
   margin: 0 auto;
   font-family: "inter";
   padding: 0;
@@ -34,6 +34,7 @@
   justify-content: space-between;
   padding-bottom: 56px;
   box-sizing:border-box;
+
 }
 
 .header__logo {
@@ -100,10 +101,15 @@
   margin-bottom: 64px;
 }
 
-.lead__image {
-  max-width: 984px;
-  max-height: 615px;
+.lead__image-container {
+  margin: 0;
+padding: 0 148px;
+}
 
+.lead__image {
+  /* max-width: 984px; */
+width: 100%;
+max-width: 984px;
 }
 
 .lead__caption {
@@ -113,11 +119,11 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  display: flex;
-  justify-content: start;
+  /* display: flex;
+  justify-content: start; */
   /* align-self: flex-start; */
-  position: relative;
-  left: -413px;
+  /* position: relative;
+  left: -413px; */
 }
 
 .intro {
@@ -174,10 +180,9 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(213px, 284px));
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
-  /* align-self: center;
-  padding: 0 48px 92px 48px; */
+  padding-bottom: 92px;
 }
 
 .photo-grid li {
@@ -187,7 +192,7 @@
 }
 
 .photo-grid__item {
-  max-height: 213px;
+  /* max-height: 213px; */
   max-width: 284px;
 }
 
@@ -261,6 +266,66 @@
   line-height: 163%;
 }
 
+.cover {
+  padding: 0 48px 92px;
+  /* background-image: url(/images/cover-trains.jpg); */
+
+/* max-width: 1280px; */
+box-sizing: border-box;
+
+}
+
+.cover__title {
+  font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+text-align: center;
+width: 560px;
+color: #FFFFFF;
+position: absolute;
+top: 20%;
+z-index: 2;
+margin: 0;
+}
+
+.cover__subtitle {
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+width: 360px;
+position: absolute;
+z-index: 2;
+bottom: 20%;
+margin: 0;
+}
+
+.cover__link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+position: relative;
+max-width: 1184px;
+}
+
 .cover__backgroung {
+  background-size: cover;
   width: 100%;
+  opacity: 0.8;
+}
+
+.cover__backgroung:hover {
+  opacity: 0.3;
+  cursor: pointer
+}
+
+.cover__overlay {
+background: #2A2C2F;
+
 }
