@@ -51,7 +51,7 @@
   margin: 0;
   padding: 0;
   max-width: 29px;
-  max-height: 28[x];
+  max-height: 28;
   font-size: 24px;
   line-height: 28px;
   color: #ffffff;
@@ -60,10 +60,12 @@
 
 .header__lang-link:nth-child(2n) {
   margin-left: 18px;
+
 }
 
 .header__lang-link_active {
-  border-bottom: 2px #ffffff solid;
+  /* border-bottom: 2px #ffffff solid; */
+  text-decoration: underline;
 }
 
 .lead {
@@ -109,16 +111,12 @@
 
 .lead__caption {
   margin: 0;
+  padding: 0;
   margin-top: 8px;
   font-size: 10px;
   line-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  /* display: flex;
-  justify-content: start; */
-  /* align-self: flex-start; */
-  /* position: relative;
-  left: -413px; */
 }
 
 .intro {
@@ -127,10 +125,13 @@
 }
 
 .intro__title {
+  margin: 0;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
+  padding-bottom: 40px;
+  vertical-align: bottom;
   /* max-width: 690px; */
 }
 
@@ -139,7 +140,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 26px;
   margin: 0;
   padding: 0;
   max-width: 690px;
@@ -198,13 +199,16 @@
 } */
 
 .places {
+  max-width: 1280px;
+    padding: 0 148px 0 148px;
+    box-sizing: border-box;
 }
 
 .place {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
 }
 
 .places__title {
@@ -214,19 +218,20 @@
   font-size: 72px;
   line-height: 76px;
   max-width: 460px;
+  width: 100%;
   padding-bottom: 48px;
   padding-right: 40px;
 }
 
 .places__website {
   align-self: flex-end;
-  padding-bottom: 48px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  text-decoration-line: underline;
+  color: #fff;
+  margin-bottom: 48px;
   position: relative;
 }
 
@@ -243,9 +248,14 @@
   top: -24px;
 }
 
+.places__text {
+  /* margin-top: 48px; */
+}
+
 .places__image {
   max-width: 460px;
   padding-right: 40px;
+  padding-bottom: 80px;
 }
 
 .places__paragraph {

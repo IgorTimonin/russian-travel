@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Путешествия по России</title>
-    <base target="_blank">
+    <base target="_blank" />
     <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body class="page">
@@ -23,11 +23,12 @@
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
         <div class="lead__image-conteainer">
-        <img
-          class="lead__image"
-          src="images/lead-polka.jpg"
-          alt="фото из вагона поезда спящая женцина и пейзаж за окном">
-        <p class="lead__caption">ваша полка — верхняя</p>
+          <img
+            class="lead__image"
+            src="images/lead-polka.jpg"
+            alt="фото из вагона поезда спящая женцина и пейзаж за окном"
+          />
+          <p class="lead__caption">ваша полка — верхняя</p>
         </div>
       </section>
       <section class="intro block__padding">
@@ -147,12 +148,12 @@
           </li>
         </ul>
       </section>
-      <section class="places block__padding">
+      <section class="places">
         <article class="place">
           <h3 class="places__title">Куршская коса</h3>
-          <a class="places__website">park-kosa.ru</a>
+          <a class="places__website" href="http://park-kosa.ru">park-kosa.ru</a>
           <img class="places__image" src="images/place-kosa.jpg" alt="" />
-          <div class="text">
+          <div class="places__text">
             <p class="places__paragraph">
               Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
               горизонта — спокойного Куршского залива с одной стороны и
@@ -171,9 +172,13 @@
         </article>
         <article class="place">
           <h3 class="places__title">Кольский</h3>
-          <a class="places__website">National Geographic</a>
+          <a
+            class="places__website"
+            href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+            >National Geographic</a
+          >
           <img class="places__image" src="images/place-kolsky.jpg" alt="" />
-          <div class="text">
+          <div class="places__text">
             <p class="places__paragraph">
               Почти весь полуостров находится за Полярным кругом. Саамская
               тундра, от которой на юг — тайга, а на север — Ледовитый океан,
@@ -192,9 +197,11 @@
         </article>
         <article class="place">
           <h3 class="places__title">Алтай</h3>
-          <a class="places__website">Facebook</a>
+          <a class="places__website"
+            href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+            >Facebook</a>
           <img class="places__image" src="images/place-altai.jpg" alt="" />
-          <div class="text">
+          <div class="places__text">
             <p class="places__paragraph">
               Алтай — одно из красивейших мест в России. В первую очередь из-за
               гор: если ехать вдоль хребта, вы увидите склоны, усыпанные
@@ -212,12 +219,15 @@
         </article>
         <article class="place">
           <h3 class="places__title">Зимний Байкал</h3>
-          <p class="places__website">https://vk.com/baikalmile</p>
+          <a class="places__website" href="https://vk.com/baikalmile">
+            https://vk.com/baikalmile
+          </a>
           <img
             class="places__image"
             src="images/place-winter-baikal.jpg"
             alt=""
           />
+          <div class="places__text">
           <p class="places__paragraph">
             Всем известен Байкал как крупнейшее озеро в мире. Многие также
             знают, что это самый большой источник пресной воды и одно из
@@ -230,11 +240,15 @@
             льду. В марте 2019 года на фестивале «Байкальская миля» был
             поставлен мировой рекорд — 197.011 км/ч.
           </p>
+          </div>
         </article>
         <article class="place">
           <h3 class="places__title">Карелия</h3>
-          <p class="places__website">http://vodlozero.ru/</p>
+          <a class="places__website" href="http://vodlozero.ru">
+            http://vodlozero.ru/
+          </a>
           <img class="places__image" src="images/place-karelia.jpg" alt="" />
+          <div class="places__text">
           <p class="places__paragraph">
             Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
             сибирская лиственница не растёт западнее Водлозера. Зато здесь она
@@ -247,13 +261,7 @@
             кто тут хозяин.
           </p>
           <p class="places__paragraph"></p>
-        </article>
-        <article class="place">
-          <h3 class="places__title"></h3>
-          <p class="places__website"></p>
-          <img class="places__image" src="" alt="" />
-          <p class="places__paragraph"></p>
-          <p class="places__paragraph"></p>
+          </div>
         </article>
       </section>
       <section class="cover">
@@ -273,11 +281,25 @@
     <footer class="footer">
       <nav>
         <ul class="footer__links">
-          <li class="footer__item"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-          <li class="footer__item"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-          <li class="footer__item"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-          <li class="footer__item"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-          <li class="footer__item"><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+          <li class="footer__item">
+            <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="https://calendar.yandex.ru"
+              >Календарь</a
+            >
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="https://travel.yandex.ru"
+              >Путешествия</a
+            >
+          </li>
         </ul>
       </nav>
       <p class="footer__copyright">&copy;2022 Игорь Тимонин</p>
