@@ -165,17 +165,16 @@
 }
 
 .photo-grid-container {
-  margin: 0;
+  margin: 0 auto;
   max-width: 1280px;
   box-sizing: border-box;
-  padding: 0 48px 0 48px;
+  padding: 0 48px;
 }
 
 .photo-grid {
+  padding: 0;
   width: 100%;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
@@ -190,8 +189,8 @@
 }
 
 .photo-grid__item {
-  /* max-height: 213px; */
-  max-width: 284px;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 .places {
