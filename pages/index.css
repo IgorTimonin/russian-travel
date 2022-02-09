@@ -112,7 +112,7 @@
 }
 
 .intro {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   color: #fff;
   max-width: 984px;
   display: flex;
@@ -190,7 +190,7 @@
 
 .photo-grid__item {
   max-width: 100%;
-  vertical-align: middle;
+  object-fit: cover;
 }
 
 .places {
@@ -204,7 +204,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-bottom: 80px;
+  padding-bottom: 79px;
 }
 
 .places__title {
@@ -220,6 +220,12 @@
 }
 
 .places__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.places__link {
   align-self: flex-end;
   font-family: Inter;
   font-style: normal;
@@ -228,23 +234,33 @@
   line-height: 23px;
   color: #fff;
   margin-bottom: 48px;
-  position: relative;
+  /* position: relative; */
+  transition: linear 0.2s;
 }
 
-.places__website::before {
-  content: "URL";
-  padding-bottom: 30px;
+.places__link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transition: linear 0.3s;
+}
+
+.places__url-title {
+  margin: 0;
+  margin-bottom: 12px;
+  color: #fff;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 100%;
+  line-height: 170%;
   letter-spacing: 2px;
-  position: absolute;
-  top: -24px;
+  text-transform: uppercase;
 }
 
 .places__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 484px;
 }
 
 .places__image {
@@ -319,7 +335,7 @@
   background: url(/images/cover-trains.jpg) no-repeat;
   background-size: contain;
   width: 100%;
-  padding-bottom: 62.5%;
+  padding-bottom: 20%;
   max-height: 740px;
   text-decoration: none;
   display: flex;
@@ -370,7 +386,7 @@
 
 .footer__item {
   list-style-type: none;
-  padding-right: 24px;
+  padding-right: 19px;
   font-size: 16px;
   line-height: 18px;
 }
@@ -382,6 +398,7 @@
 
 .footer__link:hover {
   cursor: pointer;
+  opacity: 0.8;
 }
 
 .footer__link:last-of-type {
