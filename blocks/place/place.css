@@ -1,0 +1,38 @@
+.place {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 79px;
+  max-height: max-content;
+}
+
+.place:last-of-type {
+  padding-bottom: 0;
+}
+
+@media (max-width: 980px) {
+  .place {
+    padding: 0 24px 65px 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .place {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  .place {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 352px) {
+  .place {
+    justify-content: center;
+    padding-bottom: 50px;
+    max-width: 320px;
+    box-sizing: border-box;
+  }
+}

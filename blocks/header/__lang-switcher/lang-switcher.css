@@ -1,0 +1,10 @@
+.header__lang-switcher {
+  padding-top: 48px;
+  display: flex;
+}
+
+@media (max-width: 370px) {
+  .header__lang-switcher {
+    padding-top: 30px;
+  }
+}

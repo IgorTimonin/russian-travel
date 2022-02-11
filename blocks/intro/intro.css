@@ -1,0 +1,15 @@
+.intro {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media (max-width: 1080px) {
+  .intro {
+    max-width: 928px;
+  }
+}
