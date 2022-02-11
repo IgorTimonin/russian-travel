@@ -1,5 +1,5 @@
 .cover__background {
-  background: url(../../../../images/cover-trains.jpg) no-repeat;
+  background: url(../../../images/cover-trains.jpg) no-repeat;
   background-size: contain;
   width: 100%;
   display: flex;
