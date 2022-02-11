@@ -4,7 +4,7 @@
   align-items: center;
   max-width: 984px;
   font-size: 0;
-  margin: 0 auto;
+  margin: 0 auto 92px;
   box-sizing: border-box;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   color: #ffffff;
@@ -13,5 +13,18 @@
 @media (max-width: 1080px) {
   .places {
     max-width: 928px;
+    margin-bottom: 84px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .places {
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 425px) {
+  .places {
+    margin-bottom: 66px;
   }
 }

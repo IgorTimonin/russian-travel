@@ -1,17 +1,17 @@
-.intro__position {
+.intro__content {
   margin: 0 auto;
   margin-bottom: 92px;
 }
 
 @media (max-width: 980px) {
-  .intro__position {
+  .intro__content {
     padding: 0 24px;
     margin-bottom: 87px;
   }
 }
 
 @media (max-width: 400px) {
-  .intro__position {
+  .intro__content {
     padding: 0 16px;
     margin-bottom: 63px;
   }

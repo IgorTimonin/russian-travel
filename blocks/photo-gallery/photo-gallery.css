@@ -1,4 +1,4 @@
-.photo-grid__container {
+.photo-gallery {
   margin: 0 auto;
   max-width: 1280px;
   box-sizing: border-box;
@@ -6,13 +6,13 @@
 }
 
 @media (max-width: 980px) {
-.photo-grid__container {
+.photo-gallery {
   padding: 0 24px;
   }
 }
 
 @media (max-width: 400px) {
-.photo-grid__container {
+.photo-gallery {
   padding: 0 16px;
   }
 }
