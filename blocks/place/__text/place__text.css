@@ -30,7 +30,6 @@
 @media (max-width: 606px) {
   .place__text {
     max-width: 256px;
-    padding-left: 16px;
   }
 }
 

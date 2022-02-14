@@ -27,6 +27,6 @@
 @media (max-width: 355px) {
   .place__image {
     min-width: 320px;
-    margin: 0 -16px 32px;
+    /* margin: 0 -16px 32px; */
   }
 }

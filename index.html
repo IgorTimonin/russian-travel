@@ -12,13 +12,13 @@
     <header class="header">
       <img class="header__logo" src="images/header-logo.svg" alt="логотип Россия">
       <div class="header__lang-switcher">
-        <a class="header__lang-link_active header__lang-link" href="#">Ru</a>
-        <a class="header__lang-link" href="#">En</a>
+        <a class="header__lang-link_active header__lang-link" target="_self" href="#">Ru</a>
+        <a class="header__lang-link" target="_self" href="#">En</a>
       </div>
     </header>
     <main>
       <section class="lead">
-        <h1 class="lead__title">Путешествия по России</h1>
+        <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
@@ -46,6 +46,10 @@
             вашего отпуска.
           </p>
           <ul class="intro__list">
+            <li>
+              Часовых поясов
+              <span class="intro__digit">11</span>
+            </li>
             <li>
               Объектов природного наследия ЮНЕСКО
               <span class="intro__digit">12</span>
@@ -269,19 +273,17 @@
         </article>
       </section>
       <section class="cover">
-        <div class="cover__background">
+
           <a
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
             class="cover__link">
-            <div class="cover__text">
-              <h3 class="cover__title">До Байкала «на&nbsp;собаках»</h3>
+              <h3 class="cover__title">До&nbsp;Байкала «на&nbsp;собаках»</h3>
               <p class="cover__subtitle">
-                По мотивам учебной темы о&nbsp;Транссибе&nbsp;—&nbsp;путешествие
+                По мотивам учебной темы о&nbsp;Транссибе —&nbsp;путешествие
                 от&nbsp;столицы до Байкала на электричках.
               </p>
-            </div>
           </a>
-        </div>
+        
       </section>
     </main>
     <footer class="footer">

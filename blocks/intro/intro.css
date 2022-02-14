@@ -6,10 +6,30 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin: 0 auto 92px;
 }
 
 @media (max-width: 1080px) {
   .intro {
     max-width: 928px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    margin-bottom: 87px;
+  }
+}
+
+@media (max-width: 980px) {
+  .intro {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .intro {
+    padding: 0 16px;
+    margin-bottom: 63px;
   }
 }

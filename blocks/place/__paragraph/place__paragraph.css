@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 157%;
+  line-height: 163%;
 }
 
 .place__paragraph:nth-child(2n) {
@@ -15,6 +15,5 @@
 @media (max-width: 980px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 162%;
   }
 }
