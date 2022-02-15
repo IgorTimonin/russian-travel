@@ -40,8 +40,3 @@
   }
 }
 
-@media (max-width: 320px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fit, 320px);
-  }
-}

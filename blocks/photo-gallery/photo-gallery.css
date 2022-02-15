@@ -22,9 +22,3 @@
     padding: 0 16px;
   }
 }
-
-@media (max-width: 319px) {
-  .photo-gallery {
-    padding: 0 10px;
-  }
-}
